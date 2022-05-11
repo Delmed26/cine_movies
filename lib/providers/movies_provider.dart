@@ -9,7 +9,7 @@ import 'package:http/http.dart' as http;
 
 class MoviesProvider extends ChangeNotifier {
 
-  final String _apiKey  = '46accb616a7ebb60ebe9bb064df5c571';
+  final String _apiKey  = '-----';
   final String _baseUrl = 'api.themoviedb.org';
   String _language      = 'en-US';
 
